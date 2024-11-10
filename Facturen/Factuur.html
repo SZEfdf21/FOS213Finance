@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Schuldenoverzicht 345e FOS De Toekan (made by Nandoe)</title>
+
+		<style>
+			.invoice-box {
+				max-width: 800px;
+				margin: auto;
+				padding: 30px;
+				border: 1px solid #eee;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+				font-size: 16px;
+				line-height: 24px;
+				font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+				color: #555;
+			}
+
+			.invoice-box table {
+				width: 100%;
+				line-height: inherit;
+				text-align: left;
+				break-inside: avoid;
+				border-collapse: collapse;
+			}
+
+			.invoice-box table td {
+				padding: 5px;
+				vertical-align: top;
+				border: none;
+			}
+
+			.invoice-box table tr td:nth-child(2) {
+				text-align: right;
+			}
+
+			.invoice-box table tr.top table td {
+				padding-bottom: 20px;
+			}
+
+			.invoice-box table tr.top table td.title {
+				font-size: 45px;
+				line-height: 45px;
+				color: #333;
+			}
+
+			.invoice-box table tr.information table td {
+				padding-bottom: 40px;
+			}
+
+			.invoice-box table tr.heading td {
+				background: #eee;
+				border-collapse: collapse;
+				border-bottom: 1px solid #ddd;
+				font-weight: bold;
+			}
+
+			.invoice-box table tr.details td {
+				padding-bottom: 20px;
+			}
+
+			.invoice-box table tr.item td {
+				border-bottom: 0px solid #eee;
+				padding-bottom: 20px;
+			}
+
+			.invoice-box table tr.total td:nth-child(2) {
+				font-weight: bold;
+			}
+
+			@media only screen and (max-width: 600px) {
+				.invoice-box table tr.top table td {
+					width: 100%;
+					display: block;
+					text-align: center;
+				}
+
+				.invoice-box table tr.information table td {
+					width: 100%;
+					display: block;
+					text-align: center;
+				}
+			}
+			@page {
+    		size: a4 portrait;
+    		margin: 3mm 3mm 3mm 3mm;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="invoice-box">
+			<table cellpadding="0" cellspacing="0">
+				<tr class="top">
+					<td colspan="2">
+						<table>
+							<tr>
+								<td class="title">
+									<img
+										src="Logo_Kaderblauw.png"
+										style="width: 300px; max-width: 300px"
+									/>
+								</td>
+
+								<td>
+									Schuldenoverzicht van 345e FOS De Toekan (update: mei)<br>
+									Created: 08/10/2024<br>
+									Due: 22/06/2024
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr class="information">
+					<td colspan="2">
+						<table>
+							<tr>
+								<td>
+									345e FOS de Toekan<br>
+									Kerselaarlaan 2A<br>
+									3360 Lovenjoel
+								</td>
+
+								<td>
+									Caracara<br>
+									caracara@detoekan.be
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr class="heading">
+	<td>Poeflijsten</td>
+	<td>Subtotaal: &euro; 15,0 </td>
+</tr>
+<tr class="item">
+	<td>
+		- augustus: &euro; 7,5 <br>- september: &euro; 7,5 <br>- oktober: &euro; 0,0 <br>- november: &euro; 0,0 <br>- december: &euro; 0,0 <br>- januari: &euro; 0,0 <br>- februari: &euro; 0,0 <br>- maart: &euro; 0,0 <br>- EHWE: &euro; 0,0 <br>- KTBZ: &euro; 0,0 <br>- april: &euro; 0,0 <br>- mei en juni: &euro; 0,0 <br>- juli: &euro; 0,0 <br>
+	</td>
+</tr><tr class="heading">
+	<td>Voorschotten allerlei</td>
+	<td>Subtotaal: &euro; 9,5 </td>
+</tr>
+<tr class="item">
+	<td>
+		- Berenpoot 06/09: &euro; 9,5 <br>
+	</td>
+</tr><tr class="heading">
+	<td>Vorig jaar</td>
+	<td>Subtotaal: &euro; 50,16 </td>
+</tr>
+<tr class="item">
+	<td>
+		- Poeflijsten: &euro; 80,25 <br>- LW: &euro; 70,78 <br>- Inleefweek: &euro; 0,0 <br>- EHWE: &euro; 0,0 <br>- Kamp: &euro; 12,17 <br>- Voorschotten allerlei: &euro; 69,77 <br>- Jaar 22-23: &euro; 46,0 <br>- Reeds betaald vorig jaar: &euro; 228,81 <br>
+	</td>
+</tr>
+
+				<tr class="heading">
+					<td>Reeds betaald</td>
+					<td>- &euro; 228,81 </td>
+				</tr>
+
+				<tr class="total">
+					<td></td>
+					<td>Totaal te betalen: &euro; -154,15</td>
+				</tr>
+
+				<tr class="information">
+					<td colspan="2">
+						<table>
+							<tr>
+								<td>
+									<strong>Betaalgegevens:</strong><br>
+									Rekeningnummer: BE13 7340 2277 8639 <br>
+									Mededeling: 300 Caracara
+								</td>
+
+								<td>
+									<img
+										src="QR_Totale schuld.png"
+										style="width: 125px; max-width: 125px"
+									/>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</body>
+</html>
